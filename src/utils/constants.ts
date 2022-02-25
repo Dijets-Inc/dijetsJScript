@@ -13,7 +13,7 @@ export const PrimaryAssetAlias:string = "DJTX";
 
 export const NetworkIDToHRP:object = {
   0: "custom",
-  1: "djtx",
+  1: "dijets",
   2: "cascade",
   3: "denali",
   4: "everest",
@@ -23,7 +23,7 @@ export const NetworkIDToHRP:object = {
   
 export const HRPToNetworkID:object = {
   "custom": 0,
-  "djtx": 1,
+  "dijets": 1,
   "cascade": 2,
   "denali": 3,
   "everest": 4,
@@ -32,23 +32,23 @@ export const HRPToNetworkID:object = {
 };
 
 export const NetworkIDToNetworkNames:object = {
-  0: ["Manhattan"],
+  0: ["Beacons"],
   1: ["Dijets","Mainnet"],
-  2: ["Cascade"],
-  3: ["Denali"],
-  4: ["Everest"],
+  2: ["Net-EU"],
+  3: ["Phase2"],
+  4: ["Phase3"],
   5: ["Fuji", "Testnet"],
   12345: ["Local Network"]
 };
 
 export const NetworkNameToNetworkID:object = {
-  "Manhattan": 0,
+  "Beacons": 0,
   "Dijets": 1,
   "Mainnet": 1,
-  "Cascade": 2,
-  "Denali": 3,
-  "Everest": 4,
-  "Fuji": 5,
+  "Net-EU": 2,
+  "Phase2": 3,
+  "Phase3": 4,
+  "Pre-Mainnet": 5,
   "Testnet": 5,
   "Local Network": 12345
 };
