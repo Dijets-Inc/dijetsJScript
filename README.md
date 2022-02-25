@@ -294,7 +294,7 @@ const friendsAddress = "dijets1k26annideya2ms95puxcczsa3lzwf5ftt0fjk"; // note t
 //   * An array of addresses sending the funds
 //   * An array of addresses any leftover funds are sent
 //   * The AssetID of the funds being sent
-const unsignedTx = await xchain.buildBaseTx(utxos, sendAmount, [friendsAddress], addressStrings, addressStrings, assetid);
+const unsignedTx = await xchain.buildBaseTx(utxos, sendAmount, [friendsAddress], addressStrings, assetid);
 const signedTx = vchain.signTx(unsignedTx);
 const txid = await vchain.issueTx(signedTx);
 ```
