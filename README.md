@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://forge.dijets.io/DijetsLogoJS.png?raw=true">
+</div>
+
+---
+
 # DijetsJS - Dijets Platform JavaScript Library
 
 ## Overview
